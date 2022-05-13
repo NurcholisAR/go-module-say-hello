@@ -1,7 +1,5 @@
 package gomodulesayhello
 
-import "fmt"
-
-func Say_Hello() {
-	fmt.Println("Hello Word")
+func Say_Hello(name string) string {
+	return name
 }
